@@ -18,6 +18,7 @@ The workflow includes:
 ---
 
 ## 📦 Dataset  
+- Link: https://huggingface.co/datasets/ashraq/fashion-product-images-small
 <img width="1003" height="564" alt="1" src="https://github.com/user-attachments/assets/0270afcb-311e-48da-be96-1ef3107f8277" />
 
 
@@ -184,4 +185,3 @@ This interface allows the user to:
 
 ## 📜 License  
 MIT License  
-<img width="468" height="646" alt="image" src="https://github.com/user-attachments/assets/4d0c32a7-2dcb-4fce-b881-c68612ad8555" />
