@@ -18,7 +18,8 @@ The workflow includes:
 ---
 
 ## 📦 Dataset  
-<img width="1003" height="564" alt="1" src="https://github.com/user-attachments/assets/4670d060-e5b6-4b7b-b5a6-9f2ee83b5f9e" />
+<img width="1003" height="564" alt="1" src="https://github.com/user-attachments/assets/0270afcb-311e-48da-be96-1ef3107f8277" />
+
 
 
 - Source: **Hugging Face Fashion Product Images Dataset** (ashraq/fashion-product-images-small)  
@@ -36,9 +37,10 @@ This dataset offers a diverse mix of shirts, watches, shoes, handbags, and appar
 ---
 
 ## 🧩 Architecture Overview
-<img width="859" height="510" alt="Screenshot 2025-12-05 at 5 24 44 AM" src="https://github.com/user-attachments/assets/4eef81bc-c872-489c-b58a-0a03ca8c5bd4" />
 
-<img width="884" height="478" alt="Screenshot 2025-12-05 at 5 57 32 AM" src="https://github.com/user-attachments/assets/b35b1b13-674c-40d8-a1a1-b6130afaca84" />
+<img width="859" height="510" alt="Screenshot 2025-12-05 at 5 24 44 AM" src="https://github.com/user-attachments/assets/3884c526-05dc-4cc8-900a-e6eda71c74ae" />
+
+<img width="884" height="478" alt="Screenshot 2025-12-05 at 5 57 32 AM" src="https://github.com/user-attachments/assets/bcce3ce0-437b-4cda-a6c5-5d0b2fcf597d" />
 
 ### **Data Ingestion & Preparation**
 - Load raw dataset  
@@ -60,7 +62,8 @@ Two diffusion architectures were compared:
 ---
 
 ## 🖼️ Image Generation
-<img width="1452" height="147" alt="Screenshot 2025-12-05 at 5 05 52 AM" src="https://github.com/user-attachments/assets/555b7804-9172-4987-8c98-bd777637d39a" />
+
+<img width="1452" height="147" alt="Screenshot 2025-12-05 at 5 05 52 AM" src="https://github.com/user-attachments/assets/6045cff9-4fa6-43e2-bd8b-6a6de9144157" />
 
 Both models were used to generate multiple variations of:
 - Watches  
@@ -91,7 +94,8 @@ Lower = closer to real image distribution.
   
 ### **3️⃣ Inception Score (Diversity)**  
 - Consistently low (≈1.0) due to limited dataset + small generation batches  
-<img width="750" height="333" alt="Screenshot 2025-12-05 at 5 37 13 AM" src="https://github.com/user-attachments/assets/c3966f75-78f4-4465-a402-c2a7c0e04fa0" />
+<img width="750" height="333" alt="Screenshot 2025-12-05 at 5 37 13 AM" src="https://github.com/user-attachments/assets/16799905-3058-456b-9b2f-76d03492b82d" />
+
 
 ---
 
@@ -103,7 +107,8 @@ Based on CLIP, FID, and overall consistency:
 **Steps:** 50  
 **Scheduler:** Euler  
 **Model:** Stable Diffusion v1.5  
-<img width="762" height="553" alt="Screenshot 2025-12-05 at 5 32 46 AM" src="https://github.com/user-attachments/assets/dcc0c7e6-9b13-4610-acd9-48dda017e50d" />
+<img width="762" height="553" alt="Screenshot 2025-12-05 at 5 32 46 AM" src="https://github.com/user-attachments/assets/f11cbae2-931a-41ed-b757-ef4d58a25f06" />
+
 
 
 ---
@@ -116,7 +121,8 @@ Based on CLIP, FID, and overall consistency:
   - “black running shoes with white sole”  
   - “adidas mens fire grey t-shirt”  
 
-<img width="485" height="535" alt="output" src="https://github.com/user-attachments/assets/fb7647a7-16fb-4468-8787-757fbdd9bd26" />
+
+<img width="485" height="535" alt="output" src="https://github.com/user-attachments/assets/f8149936-9946-4008-a4a4-30ccbc48d833" />
 
 
 ---
@@ -164,7 +170,8 @@ This interface allows the user to:
 - Perfect for class presentations, project reviews, or rapid experimentation  
 
 ### **Example of the Gradio UI**
-<img width="1565" height="841" alt="Screenshot 2025-12-10 at 10 35 18 PM" src="https://github.com/user-attachments/assets/8b232153-154b-465a-837c-f5b4e808e4f4" />
+<img width="1565" height="841" alt="Gradio_UI" src="https://github.com/user-attachments/assets/1853e2f0-212a-49ed-90df-0ac1bb6799e2" />
+
 
 
 ## 👥 Contributors  
